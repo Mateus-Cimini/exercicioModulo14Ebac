@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital@0;1&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    background-color: #acabab;
+}
+
+.t {
+    background-color: #acabab;
+}
+.navbar {
+    background-color: #FACC15;
+    color: #111827;
+}
+
+.nav .nav-item .nav-link.active {
+    background-color: #fff;
+    color: #FACC15;
+}
+
+.nav .nav-item .nav-link,
+.container .navbar-brand,
+.container .navbar-brand:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.container .navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: 'Exo 2', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+#sobre,
+#cardapio {
+    background-color: #707070;
+}
+
+.text-colored {
+    color: #FACC15;  
+}
+
+button.text-colored {
+    color: #FACC15;
+}
+
+button.text-colored:hover {
+    color: #FACC15;
+}
+
+button.nav-link.active.text-colored {
+    background-color: #FACC15;
+}
+
+address {
+    line-height: 1.5;
+    color: #555;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+.social-links li a {
+    text-decoration: none;
+}
+
+#contato button {
+    background-color: #FACC15;
+    color: #fff;
+    border: 2px solid #FACC15;
+    transition: border-width 0.3s ease, background-color 0.3s ease;
+    margin: 20px;
+}
+
+#contato button:hover {
+    border-width: 1px;
+}
+
+#sobre .carousel-item img {
+    height: 600px;
+}
+
+@media (max-width: 767px) {
+    #sobre .carousel-item img {
+        height: 300px;
+    }
+}
